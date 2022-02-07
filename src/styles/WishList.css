@@ -1,0 +1,117 @@
+.Wish__content {
+  height: 100vh;
+  /* width: 100%; */
+  padding-left: 13%;
+  display: flex;
+}
+
+.WishProductPage__list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.WishProduct__container {
+  margin-bottom: 20px;
+}
+.WishProductPage__list > h1 {
+  font-weight: 700;
+  border-bottom: 2px solid #d8d8d8;
+}
+
+.WishProductPage__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+
+.WishProduct__image {
+  width: 210px;
+  height: 260px;
+  border-radius: 5px;
+}
+
+/* .Product__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px;
+} */
+
+.WishProductImage__container {
+  display: flex;
+  /* max-width: 260px;
+  max-height: 260px; */
+  justify-content: center;
+}
+
+.WishProduct__details {
+  margin-top: 20px;
+}
+.WishProduct__details > p {
+  margin: 0;
+  text-align: center;
+}
+
+.Add__To__Basket {
+  background-color: #fab818 !important;
+  font-weight: 600 !important;
+}
+
+.Add__button {
+  display: flex;
+  justify-content: center;
+}
+
+.top__bar {
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
+/* .SideBar__Navigation {
+  display: flex;
+}
+
+.SideBar__Navigation > p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.SideBar__BackButton {
+  display: flex;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fab818;
+  border-bottom: 1px solid #fab818;
+  text-decoration: none;
+}
+
+.SideBar__BackButton > p {
+  margin-bottom: 0px;
+}
+
+.SideBar__BackButton:hover {
+  color: black !important;
+}
+
+.Back__icon {
+  height: 0.8em !important;
+} */
+
+.cancel__icon span {
+  margin-bottom: 20px;
+  visibility: hidden;
+}
+
+.WishProduct__image:hover + .cancel__icon span {
+  visibility: visible;
+}
+.cancel__icon:hover span {
+  visibility: visible;
+}

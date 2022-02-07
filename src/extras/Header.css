@@ -1,0 +1,164 @@
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 50px;
+  object-fit: contain;
+  margin: 0 20px 0;
+  background-color: black;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__searchInput {
+  height: 30px;
+  padding: 10px;
+  border: none;
+  width: 20%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* margin-left: 70%; */
+}
+
+.header__searchIcon {
+  padding: 5px;
+  /* height: 22px; */
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.header__searchIcon:hover {
+  color: #fab818;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  color: white;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.header__optionBasket:hover {
+  color: #fab818;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__wishlist:hover {
+  color: #fab818;
+}
+
+.header__user:hover {
+  color: #fab818;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+ul li a {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #fab818;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  /* nav ul li a {
+    font-size: ;
+  } */
+  .header__name {
+    font-size: 20px;
+  }
+  .header__search {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #222227;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+  }
+  a:hover {
+    background: none;
+    color: #fab818;
+  }
+  .check:checked ~ ul {
+    left: 0;
+  }
+  .header__name {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,37 @@
+.checkout__page {
+  padding-top: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.checkout__header {
+  margin-top: 30px;
+  border-bottom: 2px solid #d8d8d8;
+}
+
+.checkout__title {
+  font-weight: 700;
+}
+
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  justify-content: space-between;
+}
+.checkout__left {
+  flex: 0.8;
+}
+@media (max-width: 960px) {
+  .checkout {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* 
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+} */
