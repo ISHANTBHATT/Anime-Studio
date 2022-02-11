@@ -3,3 +3,31 @@
   object-fit: contain;
   margin-right: 10px;
 }
+<<<<<<< HEAD
+=======
+
+.appBar {
+  margin-top: 64px;
+  height: 40px;
+  /* background-color: #222227; */
+}
+.header_Bottom_list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_Bottom_list > li {
+  list-style: none;
+  display: flex;
+}
+
+.header_Bottom_list > li > p {
+  margin-left: 5px;
+}
+
+.header_Bottom_list > li:hover {
+  color: #fab818;
+}
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a

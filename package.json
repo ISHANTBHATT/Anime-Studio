@@ -3,15 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@material-ui/core": "^4.12.1",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
+=======
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/material": "^5.4.1",
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
     "@stripe/react-stripe-js": "^1.4.1",
     "@stripe/stripe-js": "^1.17.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+<<<<<<< HEAD
     "axios": "^0.21.1",
+=======
+    "axios": "^0.21.4",
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
     "bootstrap": "^4.6.0",
     "firebase": "^8.7.1",
     "react": "^17.0.2",
@@ -48,10 +62,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
   "license": "ISC",
   "devDependencies": {}
+=======
+  }
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
 }

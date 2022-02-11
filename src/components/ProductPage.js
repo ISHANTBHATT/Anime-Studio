@@ -1,5 +1,9 @@
 import React,{useState} from 'react'
+<<<<<<< HEAD
 import { images } from "./AllProduct"
+=======
+import {images} from "./AllProduct"
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
 import Header from './Header';
 import LocalShippingIcon from '@material-ui/icons/LocalShipping';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';

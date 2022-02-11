@@ -18,6 +18,14 @@ import {useDataLayerValue} from "../DataLayer";
 import {auth} from "../firebase";
 import "../styles/Header.css";
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
+=======
+import WhatshotIcon from '@material-ui/icons/Whatshot';
+import CheckroomIcon from '@mui/icons-material/Checkroom';
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import LiveTvIcon from '@mui/icons-material/LiveTv';
+import Headerbottom from './Headerbottom';
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -293,6 +301,40 @@ export default function PrimarySearchAppBar() {
       </AppBar>
       {renderMobileMenu}
       {renderMenu}
+<<<<<<< HEAD
+=======
+      
+      <div>
+        <AppBar position="fixed" className='appBar' style={{backgroundColor: "#222227"}}>
+          <Toolbar >
+            <ul className='header_Bottom_list'>
+              <li>
+                <WhatshotIcon />
+                <p>Trending</p>
+                </li>
+                <li>
+                <ShoppingBagIcon />
+                <p>Accessories</p>
+                </li>
+                <li>
+                <CheckroomIcon />
+                <p>Clothing</p>
+                </li>
+                <li>
+                <LiveTvIcon />
+                <p>Series</p>
+                </li>
+                <li>
+                <WhatshotIcon />
+                <p>Trending</p>
+                </li>
+            </ul>
+          </Toolbar>
+        </AppBar>
+      </div>
+      
+
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
     </div>
   );
 }

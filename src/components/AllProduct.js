@@ -326,6 +326,7 @@ const images = [
         price: 30
 
     },
+<<<<<<< HEAD
     // {
 
     // },
@@ -348,6 +349,30 @@ const images = [
 
     // },
     // {
+=======
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
        
 
         
@@ -360,8 +385,13 @@ const images = [
 
 
         
+<<<<<<< HEAD
     // },
     // {
+=======
+    },
+    {
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
         
 
 
@@ -375,7 +405,11 @@ const images = [
 
 
 
+<<<<<<< HEAD
     // }
+=======
+    }
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
 
 ];
 
@@ -425,4 +459,8 @@ const images = [
 //         title6:"All Sisters",
 //     },
 // ]
+<<<<<<< HEAD
 export { images };
+=======
+export {images}
+>>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
