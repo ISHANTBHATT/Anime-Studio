@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { images }from "./AllProduct"
 import RecommendCard from "./RecommendCard";
-import "../styles/Slider.css"
+// import "../styles/Slider.css"
 
 export default function RecommendSlider() {
     var settings = {
