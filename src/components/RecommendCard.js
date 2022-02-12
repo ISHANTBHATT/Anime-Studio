@@ -1,13 +1,20 @@
 import React from "react"
-// import "../styles/Slider.css"
+import "../styles/RecommendCard.css"
 
 
 function RecommendCard(props) {
+    console.log(props.anime);
     return (
-        <div className="container mt-5 carousel">
-             <div className="card">
-                <div className="card__image">
+        <div className="recommendcard__wrapper">
+             <div className="recommendcard">
+                <div className="recommendcard__image">
                     <img src={props.img} />
+                    
+                </div>
+                <div className="recommendcard__details">
+                <p>{props.anime}</p>
+                <p>{props.title}</p>
+                <p>{props.price} $</p>
                 </div>
             </div>
         </div>
