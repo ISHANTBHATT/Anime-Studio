@@ -17,7 +17,6 @@ import Payment from './components/Payment';
 import {loadStripe} from "@stripe/stripe-js";
 import {Elements} from "@stripe/react-stripe-js";
 import SearchProduct from './components/SearchProduct';
-import RecommendSlider from './components/RecommendSlider';
 const promise = loadStripe("pk_test_51INCOmJdjfHg7jiiGJduQwCeA7U5kaSPPibWLdKPdqWPowJY9hp1J1mIeNux6FQKPIrekVBGttBZ28N5IyV2m5EJ00wKBpBHwd");
 
 function App() {
@@ -77,7 +76,6 @@ function App() {
         <Route path="/">
            <Header />
             <Home />
-            <RecommendSlider />
             <Footer />
         </Route>
 

@@ -10,6 +10,7 @@ import SelectButton from './SelectButton';
 import NavigatorTopBar from './NavigatorTopBar';
 import Footer from "./Footer"
 import ReactImageMagnify from 'react-image-magnify';
+import RecommendSlider from './RecommendSlider';
 function ProductPage(props) {
     const product = images.find(x => x.title === props.match.params.title);
 
@@ -130,6 +131,7 @@ function ProductPage(props) {
             
             
         </div>
+        <RecommendSlider />
         <Footer />
     </div>
     )

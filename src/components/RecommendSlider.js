@@ -11,15 +11,20 @@ export default function RecommendSlider() {
       dots: true,
       infinite: false,
       speed: 500,
-      slidesToShow: 10,
-      slidesToScroll: 5,
+      slidesToShow: 5,
+      slidesToScroll: 3,
       cssEase: "linear"
     };
+    
     return (
-      <Slider {...settings} >
+      <Slider {...settings} style={{marginLeft: "50px", marginRight: "50px"}}>
         {images.map((item) => (
          <RecommendCard
+         key={item.id}
         img={item.img[0]}
+        title={item.title}
+        price={item.price}
+        anime={item.anime}
         />
       ))}
       </Slider>
