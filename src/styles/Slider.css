@@ -205,17 +205,6 @@
   opacity: 1;
 }
 
-<<<<<<< HEAD
-/* .slick-prev {
-  left: 3% !important;
-  z-index: 1;
-}
-.slick-next {
-  right: 3% !important;
-  z-index: 1;
-} */
-=======
->>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
 @media (max-width: 900px) {
   .card__wrapper,
   .card__image,
@@ -250,10 +239,6 @@
   }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
 @media (max-width: 750px) {
   .details h2 {
     font-size: 15px;

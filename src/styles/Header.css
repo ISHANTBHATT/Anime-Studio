@@ -3,8 +3,6 @@
   object-fit: contain;
   margin-right: 10px;
 }
-<<<<<<< HEAD
-=======
 
 .appBar {
   margin-top: 64px;
@@ -30,4 +28,3 @@
 .header_Bottom_list > li:hover {
   color: #fab818;
 }
->>>>>>> e06be3b9508ef699111af0f964d932ec1bb45b6a
