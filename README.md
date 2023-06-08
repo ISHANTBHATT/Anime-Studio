@@ -1,3 +1,5 @@
+![ui](https://github.com/ISHANTBHATT/Anime-Studio/assets/68179956/95aae06f-fd5e-4bdc-b5f6-2fd265941686)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
